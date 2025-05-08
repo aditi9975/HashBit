@@ -1,0 +1,27 @@
+/* src/pages/Home.css */
+.movie-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns */
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .movie-card {
+    text-align: center;
+  }
+  
+  .movie-card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .movie-card h3 {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .movie-card a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
